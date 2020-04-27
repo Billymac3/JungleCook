@@ -6,7 +6,7 @@
   "scripts": {
     "host": "firebase serve --only hosting",
     "sass": "node-sass public/sass/styles.scss public/css/styles.css -w",
-    "deploy": "firebase deploy --except functions"
+    "deploy": "firebase deploy"
   },
   "author": "Billy McIntyre",
   "license": "ISC"
