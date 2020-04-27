@@ -20,13 +20,13 @@
   position: absolute;
 
   .content-wrapper {
-    width: 65%;
+    width: 85%;
     height: auto;
     margin-top: 200px;
     // background-color: indianred;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 75px;
 
     h1 {

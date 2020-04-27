@@ -109,8 +109,8 @@ h1 {
   z-index: -5; }
   .home-container .yellow-circle {
     background-color: #ffd972;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 200px;
     display: flex;
     justify-content: center;
@@ -125,19 +125,19 @@ h1 {
         text-align: center; }
   .home-container .pink-circle {
     background-color: #fcbcb8;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 125px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: -1;
-    bottom: 200px;
-    left: 200px; }
+    bottom: 175px;
+    left: 175px; }
     .home-container .pink-circle p {
       text-align: center;
-      width: 150px;
+      width: 125px;
       font-family: "lato"; }
 
 .recipe-container {
@@ -152,12 +152,12 @@ h1 {
   justify-content: center;
   position: absolute; }
   .recipe-container .content-wrapper {
-    width: 65%;
+    width: 85%;
     height: auto;
     margin-top: 200px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 75px; }
     .recipe-container .content-wrapper h1 {
       margin-bottom: 30px;

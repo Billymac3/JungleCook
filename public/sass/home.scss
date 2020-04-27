@@ -22,8 +22,8 @@
 
   .yellow-circle {
     background-color: #ffd972;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 200px;
 
     display: flex;
@@ -45,8 +45,8 @@
   }
   .pink-circle {
     background-color: #fcbcb8;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 125px;
 
     display: flex;
@@ -55,12 +55,12 @@
 
     position: relative;
     z-index: -1;
-    bottom: 200px;
-    left: 200px;
+    bottom: 175px;
+    left: 175px;
 
     p {
       text-align: center;
-      width: 150px;
+      width: 125px;
       font-family: "lato";
     }
   }
