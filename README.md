@@ -1,9 +1,6 @@
-# N315
+# N315 Final JungleCook
  
- # homework1 Web4 link
+ # Firebase Link
  
-## https://in-info-web4.informatics.iupui.edu/~bimcin/homework1/
+## https://treefrog-cms-bm.web.app/
 
- # homework2 Web4 link
- 
-## https://in-info-web4.informatics.iupui.edu/~bimcin/homework2/
