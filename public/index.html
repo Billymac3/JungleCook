@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Jungle Cook</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lato:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Nav Begins -->
+    <div class="logo">
+      <img src="images/logo.svg" alt="logo" />
+    </div>
+
+    <div class="nav-holder">
+      <a href="index.html" id="home">Home</a>
+      <a href="recipes.html" id="browse">Browse</a>
+      <a href="#" id="create-recipe">Create Recipe</a>
+      <a href="#" id="login">Login</a>
+    </div>
+    <div class="bars">
+      <img src="images/menu.svg" alt="bars" />
+    </div>
+    <!-- Nav ends -->
+
+    <div class="home-container">
+      <div class="yellow-circle">
+        <div class="yellow-text-cont">
+          <h1>The Jungle Cook</h1>
+          <p>
+            The home to various recipes of your choice. Add your own recipe
+            today and fill the world with joy!
+          </p>
+        </div>
+      </div>
+
+      <div class="pink-circle">
+        <p>
+          Want to be a Jungle Cook? Go ahead and the kitchen is yours!
+        </p>
+      </div>
+
+      <footer>
+        <span class="copyright">copyright © 2019 The Jungle Cook</span>
+        <span class="footer-links">
+          <a href="#" id="login-footer">Login</a>
+          <a href="#" id="category">Recipes by Category</a>
+          <a href="#" id="privacy">Privacy and Copyright</a>
+          <a href="#" id="create-recipe">Create Recipe</a>
+          <a href="#" id="your-recipes">Your Recipes</a>
+        </span>
+        <span class="social-media">
+          <img class="icons" src="images/facebook.svg" alt="facebook" />
+          <img class="icons" src="images/instagram.svg" alt="instagram" />
+        </span>
+      </footer>
+    </div>
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.14.2/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.14.2/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.14.2/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.14.2/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.14.2/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+    <script src="lib/jquery-3.5.0.min.js"></script>
+    <script src="app/app.js"></script>
+
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+          let app = firebase.app();
+          let features = ["auth", "database", "messaging", "storage"].filter(
+            (feature) => typeof app[feature] === "function"
+          );
+          document.getElementById(
+            "load"
+          ).innerHTML = `Firebase SDK loaded with ${features.join(", ")}`;
+        } catch (e) {
+          console.error(e);
+          document.getElementById("load").innerHTML =
+            "Error loading the Firebase SDK, check the console.";
+        }
+      });
+    </script> -->
+  </body>
+</html>

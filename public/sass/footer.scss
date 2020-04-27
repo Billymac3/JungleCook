@@ -1,0 +1,41 @@
+footer {
+  position: absolute;
+  bottom: 38px;
+  //   left: 50px;
+  width: 95%;
+  // height: 97%;
+  //   background-color: green;
+  z-index: 98;
+  display: flex;
+  align-items: flex-end;
+
+  justify-content: space-between;
+  font-family: "lato-italic";
+
+  .copyright {
+    width: auto;
+    color: #393939;
+  }
+
+  .footer-links {
+    width: auto;
+
+    a {
+      text-decoration: none;
+      color: #393939;
+      margin-right: 20px;
+    }
+  }
+
+  .social-media {
+    width: auto;
+
+    .icons {
+      margin-left: 45px;
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+      color: #393939;
+    }
+  }
+}
